@@ -1,0 +1,111 @@
+:root { 
+  --black: #303031;
+  --black-2: #000000;
+  --cape-palliser: #9c6644;
+  --eerie-black: #1e1e1e;
+  --ironstone: #7f4539;
+  /* --sonic-silver: #777777; */
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-xl: 23px;
+  --font-size-xxl: 30px;
+  --font-size-xxxl: 35px;
+  --font-size-xxxxl: 40px;
+  --font-size-xxxxxl: 60px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-tiro_devanagari_hindi: "Tiro Devanagari Hindi", Helvetica;
+}
+.tirodevanagarihindi-normal-eerie-black-30px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-sonic-silver-18px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-mine-shaft-18px {
+  color: var(--black);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-eerie-black-35px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-ironstone-60px {
+  color: var(--ironstone);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-ironstone-24px {
+  color: var(--ironstone);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tirodevanagarihindi-normal-cape-palliser-18px {
+  color: var(--cape-palliser);
+  font-family: var(--font-family-tiro_devanagari_hindi);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* General styling for each emotion card */
+.emotion-button {
+  border: 2px solid transparent; /* Default border */
+  border-radius: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.emotion-button:hover {
+  border-color: var(--highlight-color); /* Change border color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Example for specific colors */
+/* .bhakti:hover {
+  --highlight-color: #FFA500; /* Example color for Bhakti */
+
+
+/* :hover {
+  --highlight-color: #FF4500; /* Example color for Sringara */
+
+
+/* .karuna:hover {
+  --highlight-color: #FF69B4; Example color for Karuna */
+
+
+/* You can repeat for other classes: veera, adhbutha, bhayanakam, shanti, hasya */
